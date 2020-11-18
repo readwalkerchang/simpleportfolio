@@ -6,6 +6,11 @@
 .side{
     flex:20%;
 }
+.content{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
 
 .main{
     flex:80%;
