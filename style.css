@@ -17,3 +17,21 @@
         flex-direction: column;
     }
 }
+
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  li {
+    height: 80vh;
+    flex-grow: 1;
+  }
+  
+  img {
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+  }
