@@ -3,6 +3,19 @@ body{
     margin: 0%;
     padding: 0%;
 }
+p > a{
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover{
+    color: white;
+    background-color: black;
+}
+
+li>a:hover{
+    opacity: 40%;
+}
 
 .row{
     display:flex;
@@ -74,7 +87,7 @@ ul {
       height: 80vh;
     }
   }
-  
+
   @media (max-aspect-ratio: 1/1) and (max-width: 480px) {
     ul {
       flex-direction: row;
