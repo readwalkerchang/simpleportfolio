@@ -65,7 +65,7 @@ ul {
   }
   
   li {
-    height: 80vh;
+    height: 65vh;
     flex-grow: 1;
     list-style: none
   }
