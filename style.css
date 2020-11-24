@@ -22,22 +22,21 @@ li>a:hover{
 
 
 .main{
-  flex:40%;
+  flex:80%;
 }
 
 .side{
-    flex:60%;
+    flex:20%;
     min-height: 100%;
     background-color: rgb(255, 255, 255);
     
     
 }
 .content{
-    
     font-family: 'Alegreya Sans';
     position: -webkit-sticky; /* Safari */
     position: sticky;
-    padding: 5%;
+    padding: 10%;
     margin: auto;
     top: 0;
 }
