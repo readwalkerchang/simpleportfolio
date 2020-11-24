@@ -30,13 +30,16 @@ li>a:hover{
 }
 
 .side{
-    flex:60%;
+    flex:70%;
+    min-height: 100%;
     margin: 0%;
     padding: 0%;
+    background-color: rgb(255, 255, 255);
+    
     
 }
 .content{
-    background-color: rgb(255, 255, 255);
+    
     font-family: 'Alegreya Sans';
     position: -webkit-sticky; /* Safari */
     position: sticky;
