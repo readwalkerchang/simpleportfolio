@@ -1,7 +1,5 @@
 body{
     background-color: rgb(13, 13, 14);
-    margin: 0%;
-    padding: 0%;
 }
 p > a{
     text-decoration: none;
@@ -20,8 +18,6 @@ li>a:hover{
 .row{
     display:flex;
     flex-wrap: row;
-    margin: 0%;
-    padding: 0%;
 }
 
 
@@ -30,10 +26,8 @@ li>a:hover{
 }
 
 .side{
-    flex:70%;
+    flex:60%;
     min-height: 100%;
-    margin: 0%;
-    padding: 0%;
     background-color: rgb(255, 255, 255);
     
     
@@ -118,4 +112,8 @@ img {
     }
   }
   
-  
+  /*remove remaining spce*/ 
+  body,div,ul,li,img,.row,.side,.main{
+    margin: 0%;
+    padding: 0%;
+  }
