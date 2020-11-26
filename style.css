@@ -41,7 +41,16 @@ li>a:hover {
 	top: 0;
 }
 
-
+@media screen and (max-width:700px) {
+	.container {
+		flex-wrap: nowrap;
+		flex-direction: column;
+	}
+	.content {
+		text-align: center;
+		font-size: 120%;
+	}
+}
 
 ul {
 	display: flex;
