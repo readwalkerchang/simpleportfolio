@@ -30,7 +30,7 @@ li>a:hover {
 .side {
 	flex-basis: 20%;
 	min-height: 100%;
-	background-color: rgb(255, 255, 255);
+	background-color: rgb(251, 255, 0)
 }
 
 .content{
@@ -38,8 +38,8 @@ li>a:hover {
 	position: -webkit-sticky;
 	/* Safari */
 	position: sticky;
-	padding: 10%;
-	margin: auto;
+	padding: 25% 8% 0 8%;
+	margin: 0%;
 	top: 0;
 }
 
