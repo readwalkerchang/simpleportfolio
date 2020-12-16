@@ -54,14 +54,8 @@ li>a:hover {
 	}
 }
 
-ul {
-	display: flex;
-	flex-wrap: wrap;
-}
 
 li {
-	height: 65vh;
-	flex-grow: 1;
 	list-style: none
 }
 
