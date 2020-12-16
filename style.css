@@ -34,11 +34,11 @@ li>a:hover {
 }
 
 .content{
-	font-family: 'JetBrains Mono', monospace;
+	font-family: 'JetBrains Mono';
 	position: -webkit-sticky;
 	/* Safari */
 	position: sticky;
-	padding: 25% 8% 0 8%;
+	padding: 25% 8% 0% 8%;
 	margin: 0%;
 	top: 0;
 }
