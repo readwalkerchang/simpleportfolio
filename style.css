@@ -1,5 +1,5 @@
 body {
-	background-color: rgb(13, 13, 14);
+	background-color: rgb(255, 255, 255);
 }
 
 p>a {
@@ -132,14 +132,14 @@ img,
 .single-team{
 	width: 30%;
 	height: 300px;
-	
+	margin-top: 3%;
 	background: #fff;
 	position: relative;
 	display: flex;
 	
 	align-items: flex-end;
 	transition: .6s ease-out;
-	box-shadow: 0 10px 10px rgba(0,0,0.5);
+	box-shadow: 3px 5px 5px rgb(147, 147, 147);
 }
 
 .single-team:hover{
@@ -151,6 +151,7 @@ img,
 	opacity: 1;
 }
 
+/*Overlay style*/
 .single-team:hover .team-text{
 	opacity: 1;
 	transform: translateY(0);
