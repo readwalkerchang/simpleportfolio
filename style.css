@@ -7,7 +7,9 @@ p>a {
 	color: grey;
 }
 
-
+ul>li {
+	list-style-type: circle;
+}
 
 a:hover {
 	color: white;
@@ -23,11 +25,11 @@ li>a:hover {
 	flex-wrap: row;
 }
 
-.main {
+main {
 	flex-basis: 80%;
 }
 
-.side {
+header {
 	flex-basis: 20%;
 	min-height: 100%;
 	background-color: rgb(251, 255, 0)
@@ -106,13 +108,13 @@ img {
 /*remove remaining spce*/
 
 body,
+main,
 div,
 ul,
 li,
 img,
 .row,
-.side,
-.main {
+.side{
 	margin: 0%;
 	padding: 0%;
 }
@@ -138,10 +140,10 @@ img,
 	box-shadow: 3px 5px 5px rgb(147, 147, 147);
 }
 
-.single-team > div > p ,.single-team > div > h2{
+.single-team > article {
+	font-family: 'JetBrains Mono', monospace;
 	margin: auto;
 	padding: auto;
-	font-family: 'JetBrains Mono', monospace;
 }
 
 .single-team:hover{
@@ -161,6 +163,7 @@ img,
 	
 	margin: 5%;
 	padding: 5%;
+	padding-left: 8%;
 	transition: .2s ease-out;
 	
 }
